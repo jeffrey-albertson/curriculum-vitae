@@ -1,0 +1,159 @@
+﻿{
+  "contact": {
+    "name": "Jeffrey Albertson",
+    "streetAddress": "590 Oahu Street",
+    "city": "Richland",
+    "state": "WA",
+    "zip": "99352-7319",
+    "phone": "+1 2069108109",
+    "email": "me@jeffreyalbertson.info"
+  },
+  "intro": "I drive at clarity in design and implementation, maintainability of code, and staunch support of my colleagues and managers, relying in doing so on a depth of expertise in shipping Microsoft-stack applications and Web properties.",
+  "skills": [
+    ".NET Core",
+    ".NET Framework",
+    ".NET Standard",
+    "ADO/ADO.NET",
+    "Android/Dart",
+    "Angular",
+    "AngularJS",
+    "ASP/ASP.NET",
+    "Azure AD",
+    "Azure DevOps",
+    "Bootstrap",
+    "C#",
+    "CSS",
+    "Entity Framework",
+    "Git",
+    "HTML/HTML5",
+    "JavaScript",
+    "JQuery",
+    "JSON",
+    "Mac OS",
+    "MSSQL",
+    "MVC",
+    "Node",
+    "Perl",
+    "PowerShell",
+    "REST",
+    "SharePoint",
+    "SSIS",
+    "T-SQL",
+    "TypeScript",
+    "Visual Studio",
+    "VS Code",
+    "Vue",
+    "WordPress",
+    "WPF",
+    "XPath/XSLT"
+  ],
+  "positions": [
+    {
+      "id": 6,
+      "employer": "Leftbank Art",
+      "location": "REMOTE",
+      "startMonth": "Dec",
+      "startYear": "2022",
+      "endMonth": "Feb",
+      "endYear": "2023",
+      "position": {
+        "title": "Software Developer",
+        "content": [
+          "Performed sustaining engineering work at this innovative commercial art concern building its Web properties in .NET Core and .NET Standard but using Apple products for corporate computing and development, cut short by ill health."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "employer": "KBMax/Epicor",
+      "location": "REMOTE",
+      "startMonth": "Jan",
+      "startYear": "2021",
+      "endMonth": "Jun",
+      "endYear": "2022",
+      "position": {
+        "title": "Software Developer",
+        "content": [
+          "Did new feature development and sustaining engineering on CPQ, Epicor's online-shopping solution for firms offering complex products - whose customers therefore must specify many configuration settings at time of order. CPQ renders a visual representation of the product to customers to serve as a user interface; as users manipulate this, CPQ updates its data model, its quoted price, and the user interface itself to reflect the new state of the product order.",
+          "Implemented in the MVC design pattern, CPQ also demanded expertise in C#, .NET (Framework, Core, Standard), Entity Framework, T-SQL, REST APIs, AngularJS, TypeScript, JavaScript, HTML, and CSS."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "employer": "Microsoft Corporation via Nytec/Accenture",
+      "location": "REMOTE",
+      "startMonth": "Dec",
+      "startYear": "2019",
+      "endMonth": "Sep",
+      "endYear": "2020",
+      "position": {
+        "title": "Software Development Engineer in Test",
+        "content": [
+          "Contributed to Surface team project to expose telemetry data sent to Microsoft by Surface end users outside the company. Supported parsing and persistence of telemetry data in XML, CSV, and proprietary formats. Created user interface to configure and kick off parsing runs with Blazor against .NET Core; persisted data to MSSQL with T-SQL stored procedures."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "employer": "Center for Change in Transition Services at Seattle University",
+      "location": "Seattle, WA",
+      "startMonth": "Aug",
+      "startYear": "2016",
+      "endMonth": "Sep",
+      "endYear": "2019",
+      "position": {
+        "title": "Software Programmer",
+        "content": [
+          "Redesigned and rewrote Web application administering Washington state’s annual Post-School Survey of post-secondary students with disabilities about their educational outcomes (college, employment, or other placements). Converted legacy AngularJS site to responsive design in Angular in TypeScript using HTML5 and Bootstrap. ¶ Wrote T-SQL queries to generate survey completion statistics and to fulfill state reporting requirements. ¶ Employed Azure cloud infrastructure for hosting, data storage and retrieval, and scheduled tasks.",
+          "Authored T-Folio, a Web-based curriculum to help educators help disabled students prepare for life after secondary education. Coded interactive features in Angular with TypeScript. Phone, tablet, and PC form factors drew from single code base using Bootstrap and organized according to the MVC design pattern."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "employer": "Bluehawk Consulting",
+      "location": "Bellevue, WA",
+      "startMonth": "Jul",
+      "startYear": "2015",
+      "endMonth": "Jul",
+      "endYear": "2016",
+      "position": {
+        "title": "Software Development Engineer",
+        "content": [
+          "Built ASP.NET site with to report anti-piracy data, using Telerik controls for data rendering and Bootstrap for responsive design. Coded queries and stored procedures in T-SQL to retrieve anti-piracy data from MSSQL."
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "employer": "Various",
+      "location": "Redmond, WA + Richland, WA + REMOTE",
+      "startMonth": "Jan",
+      "startYear": "2010",
+      "endMonth": "Apr",
+      "endYear": "2015",
+      "position": {
+        "title": "Software Development Engineer",
+        "content": [
+          "Contracted a series of positions for a varied clientele (Lockheed Martin, Pacific Northwest National Laboratory, Xerox, Microsoft) similarly in need of Web applications in the MVC or MVVC design patterns, commonly implemented with via Entity Framework, C#, and ASP.NET or WPF."
+        ]
+      }
+    },
+    {
+      "id": 0,
+      "employer": "Microsoft Corporation",
+      "location": "Redmond, WA",
+      "startMonth": "Mar",
+      "startYear": "1999",
+      "endMonth": "Aug",
+      "endYear": "2008",
+      "position": {
+        "title": "Software Development Engineer",
+        "content": [
+          "Developed series of multi-tiered C#/SQL tools and applications supporting delivery of features from the Office and Office Update sites for:<ul><li>automating installation of operating system, middleware, and applications to Microsoft servers, then connecting and deploying these as clusters delivering Office features to end users (see Achievements) <li>creating, managing, and resolving issue escalations (trouble tickets) <li>monitoring, evaluating, and reporting status of clusters Office features<li>executing code coverage tools against the Office codebase and reporting results, enabling build-by-build quality assessments.</ul>"
+        ]
+      }
+    }
+  ]
+}

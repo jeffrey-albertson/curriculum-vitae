@@ -1,0 +1,12 @@
+/.git
+/.idea
+/.vs
+/.v2
+/.vscode
+/bin
+/obj
+/node_modules
+
+jeffrey-albertson.csproj.user
+jeffrey-albertson.csproj.DotSettings
+

@@ -1,0 +1,36 @@
+h2 {
+    margin: 0;
+    padding: 15px 0 0;
+    font-size: 2.25em;
+    text-align: left;
+    font-family: Candara, Verdana, serif;
+    page-break-after: avoid;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 25px 0 0;
+    padding: 0;
+    text-align: left;
+    font-family: Candara, Verdana, serif;
+    text-transform: uppercase;
+}
+
+.location-and-dates-line span {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-family: Consolas, 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+.pipe {
+    font-size: 1em;
+    vertical-align: middle;
+}
+
+.para:not(div:first-of-type) {
+    padding: 10px 0 0;
+}

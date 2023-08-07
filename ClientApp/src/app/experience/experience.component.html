@@ -1,0 +1,25 @@
+<h2>EXPERIENCE</h2>
+<ng-container *ngFor="let entry of this.data.positions">
+    <section>
+        <header>
+            <h3 class="employer">{{entry["employer"]}}</h3>
+            <div class="location-and-dates-line">
+                <span>{{entry["location"]}}</span>
+                <span class="pipe"> | </span>
+                <span>
+                    {{entry["startMonth"]}}
+                    {{entry["startYear"]}}
+                    -
+                    {{entry["endMonth"]}}
+                    {{entry["endYear"]}}
+                </span>
+            </div>
+        </header>
+        <details open="open">
+            <summary><em>{{entry["position"].title}}</em></summary>
+            <ng-container *ngFor="let para of entry['position'].content">
+                <div [innerHTML]="para | safe" class="para"></div>
+            </ng-container>
+        </details>
+    </section>
+</ng-container>

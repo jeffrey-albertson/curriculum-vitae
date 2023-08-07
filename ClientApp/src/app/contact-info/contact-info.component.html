@@ -1,0 +1,15 @@
+<div class="container contact-info">
+    <div class="row">
+        <div class="col-lg-6"><h1>{{data.contact.name}}</h1></div>
+        <div class="col-lg-6 container" style="margin: auto;">
+            <div class="row">
+                <div class="col-lg-6"><a [href]="mailtoUrl">{{data.contact.email}}</a></div>
+                <div class="col-lg-6">{{data.contact.streetAddress}}</div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">{{data.contact.phone}}</div>
+                <div class="col-lg-6">{{data.contact.city}}, {{data.contact.state}} {{data.contact.zip}}</div>
+            </div>
+        </div>
+    </div>
+</div>

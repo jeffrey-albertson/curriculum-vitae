@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Candara';
+    src: url('./assets/Candara.ttf');
+}
+
+body {
+    margin: auto;
+    padding-top: 100px;
+    width: 75%;
+    font-family: 'Segoe UI Variable Text', Verdana, sans-serif;
+    line-height: 1.6em;
+}
+
+p,
+div {
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
