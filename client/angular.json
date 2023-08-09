@@ -1,9 +1,9 @@
 {
-  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "$schema": "./../node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "jeffrey-albertson": {
+    "curriculum-vitae": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -27,7 +27,7 @@
               "oidc-client"
             ],
             "assets": [
-              "src/assets"
+              "src/assets"un
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "jeffrey-albertson:build:production"
+              "browserTarget": "curriculum-vitae:build:production"
             },
             "development": {
-              "browserTarget": "jeffrey-albertson:build:development",
+              "browserTarget": "curriculum-vitae:build:development",
               "proxyConfig": "proxy.conf.js"
             }
           },
@@ -84,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "jeffrey-albertson:build"
+            "browserTarget": "curriculum-vitae:build"
           }
         },
         "server": {
@@ -103,7 +103,13 @@
               "extractLicenses": true
             },
             "production": {
-              "optimization": true,
+              "optimization": {
+                "scripts": true,
+                "styles": {
+                  "minify": true,
+                  "inlineCritical": false
+                }
+              },
               "outputHashing": "all",
               "sourceMap": false,
               "namedChunks": false,
