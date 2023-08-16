@@ -10,7 +10,16 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"github.vscode-github-actions"
+				"github.vscode-github-actions",
+				"Angular.ng-template",
+				"segerdekort.angular-cli",
+				"ms-azuretools.vscode-azureappservice",
+				"ms-vscode.vscode-node-azure-pack",
+				"ms-vscode.powershell",
+				"codezombiech.gitignore",
+				"eamodio.gitlens",
+				"ms-edgedevtools.vscode-edge-devtools",
+				"GitHub.copilot"
 			]
 		}
 	}
