@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "jeffrey-albertson": {
+    "curriculum-vitae": {
       "commandName": "Project",
       "launchBrowser": true,
       "applicationUrl": "https://localhost:7101;http://localhost:5107",

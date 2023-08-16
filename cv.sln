@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jeffrey-albertson", "jeffrey-albertson.csproj", "{34783EF7-CBA3-4E15-86C6-0B67891E5E66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "curriculum-vitae", "cv.csproj", "{34783EF7-CBA3-4E15-86C6-0B67891E5E66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

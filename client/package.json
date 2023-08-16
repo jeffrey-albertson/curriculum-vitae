@@ -1,5 +1,5 @@
 {
-  "name": "jeffrey-albertson",
+  "name": "curriculum-vitae",
   "version": "1.0.0",
   "scripts": {
     "ng" : "ng",
@@ -8,7 +8,7 @@
     "start:windows": "npm run ng serve --port 44450 --ssl --ssl-cert \"%APPDATA%\\ASP.NET\\https\\%npm_package_name%.pem\" --ssl-key \"%APPDATA%\\ASP.NET\\https\\%npm_package_name%.key\"",
     "start:default": "npm run ng serve --port 44450 --ssl --ssl-cert \"$HOME/.aspnet/https/${npm_package_name}.pem\" --ssl-key \"$HOME/.aspnet/https/${npm_package_name}.key\"",
     "build": "npm run ng build",
-    "build:ssr": "npm run jeffrey-albertson:server:dev",
+    "build:ssr": "npm run curriculum-vitae:server:dev",
     "watch": "npm run ng build --watch --configuration development"
   },
   "private": true,

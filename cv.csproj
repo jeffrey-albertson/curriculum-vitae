@@ -4,27 +4,23 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <IsPackable>false</IsPackable>
-        <SpaRoot>ClientApp\</SpaRoot>
+        <SpaRoot>client\</SpaRoot>
         <SpaProxyServerUrl>https://localhost:44450</SpaProxyServerUrl>
         <SpaProxyLaunchCommand>npm start</SpaProxyLaunchCommand>
-        <RootNamespace>jeffrey-albertson</RootNamespace>
+        <RootNamespace>curriculum-vitae</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <EnableNETAnalyzers>False</EnableNETAnalyzers>
         <AnalysisLevel>latest</AnalysisLevel>
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Remove="ClientApp\dist\**" />
-        <Compile Remove="Data\**" />
-        <Content Remove="ClientApp\dist\**" />
-        <Content Remove="Data\**" />
-        <EmbeddedResource Remove="ClientApp\dist\**" />
-        <EmbeddedResource Remove="Data\**" />
-        <None Remove="ClientApp\dist\**" />
-        <None Remove="Data\**" />
-        <None Remove="ClientApp\src\app\app.server.module.ts" />
+        <Compile Remove="client\dist\**" />
+        <Content Remove="client\dist\**" />
+        <EmbeddedResource Remove="client\dist\**" />
+        <None Remove="client\dist\**" />
+        <None Remove="client\src\app\app.server.module.ts" />
         <Compile Remove="Main.cs" />
-        <None Remove="jeffrey-albertson.csproj.DotSettings" />
+        <None Remove="cv.csproj.DotSettings" />
     </ItemGroup>
 
     <ItemGroup>
@@ -38,7 +34,7 @@
         <Exec Command="node --version" ContinueOnError="true">
             <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
         </Exec>
-        <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+        <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org, and then restart your command prompt or IDE." />
         <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
         <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
     </Target>
