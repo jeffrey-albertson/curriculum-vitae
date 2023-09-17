@@ -6,23 +6,18 @@ This project was generated with [Angular CLI] (https://github.com/angular/angula
 
 ## Development server
 
-Run `ng serve` to serve the app at `http://localhost:4200,` loading changes to source code on save.
+`ng serve` serves the app to `http://localhost:4200,` reloading on saved changes to source code.
 
 ## Scaffolding
 
-Run 
-  `ng generate component component-name0` 
-  
-  to generate a new component. You can also use 
-
-  `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`ng generate component component-name`  generate a new component, or again: `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
-`ng build` to build the project; build artifacts store in the `dist/` directory.
+`ng build` build artifacts to the `dist/` output directory.
 
 ## More
 
-To get more help on the Angular CLI use `ng help` or go check out
+`ng help`
 
-the [Angular CLI README] (https://github.com/angular/angular-cli/blob/master/README.md).
+[Angular CLI README] (https://github.com/angular/angular-cli/blob/master/README.md).
