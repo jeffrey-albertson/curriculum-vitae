@@ -2,7 +2,7 @@
 
 A cv (mine) straightforwardly in Angular.
 
-This project was generated with [Angular CLI] (https://github.com/angular/angular-cli).
+This project was generated with Angular CLI (https://github.com/angular/angular-cli).
 
 ## Development server
 
@@ -14,7 +14,7 @@ This project was generated with [Angular CLI] (https://github.com/angular/angula
 
 ## Build
 
-`ng build` build artifacts to the `dist/` output directory.
+`ng build` builds artifacts to the `dist` output directory.
 
 ## More
 
