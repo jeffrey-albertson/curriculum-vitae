@@ -2,7 +2,7 @@
 
 A cv (mine) straightforwardly in Angular.
 
-This project was generated with Angular CLI (https://github.com/angular/angular-cli).
+Project generated with Angular CLI (https://github.com/angular/angular-cli).
 
 ## Development server
 
