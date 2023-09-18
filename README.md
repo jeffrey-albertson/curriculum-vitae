@@ -6,11 +6,11 @@ Project generated with Angular CLI (https://github.com/angular/angular-cli).
 
 ## Development server
 
-`ng serve` serves the app to `http://localhost:4200,` reloading on saved changes to source code.
+`ng serve` serves the app to `http://localhost:4200,` reloading on changes saved to source code.
 
 ## Scaffolding
 
-`ng generate component component-name`  generate a new component, or again: `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+In general, `ng generate component component-name`  generates a new component; in specific, `ng generate directive|pipe|service|class|guard|interface|enum|module` does.
 
 ## Build
 
