@@ -1,0 +1,64 @@
+name: Build Node.js app, deploy to Azure Web App
+# Azure Web Apps `Deploy` action:  https://github.com/Azure/webapps-deploy, others: https://github.com/Azure/actions
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+# access to GITHUB_TOKEN authorizes GitHub Pages deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write    
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js version
+        uses: actions/setup-node@v1
+        with:
+          node-version: '19.8.0'
+
+      - name: npm install and build
+        run: |
+          npm install
+          npm run build --if-present
+      
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v2
+        with:
+          name: curriculum-vitae
+          path: .
+
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: 'Production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+    needs: build
+
+
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v2
+        with:
+          name: node-app
+
+      - name: 'Deploy to Azure Web App'
+        uses: azure/webapps-deploy@v2
+        id: deploy-to-webapp
+        with:
+          app-name: 'curriculum-vitae'
+          slot-name: 'Production'
+          publish-profile: ${{ secrets.GITHUB_TOKEN }}
+          package: .
