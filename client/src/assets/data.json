@@ -49,6 +49,21 @@
   ],
   "positions": [
     {
+      "id": 7,
+      "employer": "Codementor",
+      "location": "Richland, WA | REMOTE",
+      "startMonth": "Mar",
+      "startYear": "2022",
+      "endMonth": "PRESENT",
+      "endYear": "",
+      "position": {
+        "title": "Software Developer",
+        "content": [
+          "Offering technical instruction and mentoring in my areas of expertise on an hourly basis as a sole proprietor."
+        ]
+      }
+    },
+    {
       "id": 6,
       "employer": "Leftbank Art",
       "location": "REMOTE",
